@@ -7,8 +7,9 @@ $(document).ready(function (){
 
     let indice = 0;
 
+    $("#testimonials-boton button").click(recargarTestimonials);
 
-    $("#flechaIzq").click(function() {
+    $("#flechaIzq").click(function() {  
         if(indice == 0){
             indice = 3;
         }
